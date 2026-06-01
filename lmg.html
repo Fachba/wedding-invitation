@@ -3019,6 +3019,7 @@
             ></path>
           </svg>
         </div>
+
         <div class="elementor-container elementor-column-gap-default">
           <div
             class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1324342c wdp-sticky-section-no lws-sticky-section-no"
@@ -3038,6 +3039,7 @@
                   </div>
                 </div>
               </div>
+
               <div
                 class="elementor-element elementor-element-e8a3b42 animated-slow wdp-sticky-section-no lws-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
                 data-id="e8a3b42"
@@ -3047,10 +3049,11 @@
               >
                 <div class="elementor-widget-container">
                   <h3 class="elementor-heading-title elementor-size-default">
-                    Join Our wedding
+                    Join Our Wedding
                   </h3>
                 </div>
               </div>
+
               <div
                 class="elementor-element elementor-element-37b3919f animated-slow wdp-sticky-section-no lws-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
                 data-id="37b3919f"
@@ -3064,6 +3067,7 @@
                   </h2>
                 </div>
               </div>
+
               <div
                 class="elementor-element elementor-element-22ef23bd animated-slow wdp-sticky-section-no lws-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
                 data-id="22ef23bd"
@@ -3077,6 +3081,67 @@
                   </h2>
                 </div>
               </div>
+
+              <!-- Tombol Petunjuk Arah -->
+              <!-- Google Maps -->
+              <div
+                class="elementor-element wdp-sticky-section-no lws-sticky-section-no elementor-widget"
+                style="margin-top: 30px"
+              >
+                <div class="elementor-widget-container" style="padding: 0 20px">
+                  <div
+                    style="
+                      max-width: 800px;
+                      margin: 0 auto;
+                      border-radius: 20px;
+                      overflow: hidden;
+                      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+                      border: 5px solid rgba(255, 255, 255, 0.8);
+                    "
+                  >
+                    <iframe
+                      src="https://maps.google.com/maps?q=-7.1326683,112.4264655&z=18&output=embed"
+                      width="100%"
+                      height="350"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                    >
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tombol Petunjuk Arah -->
+              <div
+                class="elementor-element wdp-sticky-section-no lws-sticky-section-no elementor-widget"
+                style="margin-top: 25px"
+              >
+                <div
+                  class="elementor-widget-container"
+                  style="text-align: center"
+                >
+                  <a
+                    href="https://www.google.com/maps/dir/?api=1&destination=-7.1326683,112.4264655"
+                    target="_blank"
+                    style="
+                      display: inline-block;
+                      padding: 16px 40px;
+                      background-color: #b08d57;
+                      color: #ffffff;
+                      text-decoration: none;
+                      border-radius: 50px;
+                      font-size: 16px;
+                      font-weight: 600;
+                      letter-spacing: 2px;
+                      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+                    "
+                  >
+                    PETUNJUK ARAH
+                  </a>
+                </div>
+              </div>
+
               <div
                 class="elementor-element elementor-element-78508bee wdp-sticky-section-no lws-sticky-section-no elementor-widget elementor-widget-spacer"
                 data-id="78508bee"
@@ -3214,210 +3279,185 @@
         </div>
       </section>
       <style>
-		/* =========================
+        /* =========================
 		   MODAL FULLSCREEN
 		========================= */
-		.modalx{
-			position: fixed;
-			top: 0;
-			left: 0;
-		
-			width: 100vw;
-			height: 100vh;
-		
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		
-			z-index: 999999999;
-		
-			/* background solid */
-			background: #edf5ff;
-		
-			overflow: hidden;
-		
-			opacity: 1 !important;
-			backdrop-filter: none !important;
-		}
-		
-		/* hilangkan transparan */
-		.overlayy{
-			display: none;
-		}
-		
-		/* =========================
+        .modalx {
+          position: fixed;
+          top: 0;
+          left: 0;
+
+          width: 100vw;
+          height: 100vh;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          z-index: 999999999;
+
+          /* background solid */
+          background: #edf5ff;
+
+          overflow: hidden;
+
+          opacity: 1 !important;
+          backdrop-filter: none !important;
+        }
+
+        /* hilangkan transparan */
+        .overlayy {
+          display: none;
+        }
+
+        /* =========================
 		   CONTENT
 		========================= */
-		.content-modalx{
-			position: relative;
-			z-index: 2;
-		
-			text-align: center;
-		
-			padding: 30px;
-		}
-		
-		/* gambar */
-		.info_modalx img{
-			width: 240px;
-			max-width: 100%;
-		
-			margin-bottom: 25px;
-		}
-		
-		/* nama mempelai */
-		.lws-mempelai{
-			font-size: 36px;
-			font-weight: 600;
-		
-			color: #6c88a7;
-		
-			margin-bottom: 15px;
-		}
-		
-		/* text */
-		.lws-dear{
-			font-size: 18px;
-			color: #7b8fa5;
-		
-			margin-bottom: 8px;
-		}
-		
-		/* nama tamu */
-		.lws-name{
-			font-size: 24px;
-			color: #516578;
-		
-			margin-bottom: 30px;
-		}
-		
-		/* tombol */
-		.elementor-button{
-			padding: 14px 36px;
-		
-			border: none;
-			border-radius: 40px;
-		
-			background: #8ba9c8;
-		
-			color: #fff;
-		
-			cursor: pointer;
-		
-			font-size: 14px;
-			font-weight: bold;
-		
-			letter-spacing: 1px;
-		
-			transition: 0.3s;
-		}
-		
-		.elementor-button:hover{
-			background: #7395ba;
-		}
-		</style>
-		
-		<section
-			class="modalx"
-			id="welcomeModal"
-		>
-		
-			<div class="overlayy"></div>
-		
-			<div class="content-modalx">
-		
-				<div class="info_modalx">
-		
-					<div class="elementor-image img">
-						<img
-							decoding="async"
-							src="./QWNF-006 - Queen Invitation_files/QW-016-0002-1.png"
-							alt="Wedding"
-						/>
-					</div>
-		
-					<div class="lws-mempelai">
-						Fachrul &amp; Okta
-					</div>
-		
-					<div class="lws-dear" id="guestLabel" style="display:none;">
-            Kepada YTH.
-        </div>
-        
-        <div class="lws-name" id="guestName" style="display:none;">
-        </div>
-        
-        <script>
-        
-            const params = new URLSearchParams(window.location.search);
-        
-            const guest = params.get("to");
-        
-            // hanya tampil jika ada query param
-            if (guest && guest.trim() !== "") {
-        
+        .content-modalx {
+          position: relative;
+          z-index: 2;
+
+          text-align: center;
+
+          padding: 30px;
+        }
+
+        /* gambar */
+        .info_modalx img {
+          width: 240px;
+          max-width: 100%;
+
+          margin-bottom: 25px;
+        }
+
+        /* nama mempelai */
+        .lws-mempelai {
+          font-size: 36px;
+          font-weight: 600;
+
+          color: #6c88a7;
+
+          margin-bottom: 15px;
+        }
+
+        /* text */
+        .lws-dear {
+          font-size: 18px;
+          color: #7b8fa5;
+
+          margin-bottom: 8px;
+        }
+
+        /* nama tamu */
+        .lws-name {
+          font-size: 24px;
+          color: #516578;
+
+          margin-bottom: 30px;
+        }
+
+        /* tombol */
+        .elementor-button {
+          padding: 14px 36px;
+
+          border: none;
+          border-radius: 40px;
+
+          background: #8ba9c8;
+
+          color: #fff;
+
+          cursor: pointer;
+
+          font-size: 14px;
+          font-weight: bold;
+
+          letter-spacing: 1px;
+
+          transition: 0.3s;
+        }
+
+        .elementor-button:hover {
+          background: #7395ba;
+        }
+      </style>
+
+      <section class="modalx" id="welcomeModal">
+        <div class="overlayy"></div>
+
+        <div class="content-modalx">
+          <div class="info_modalx">
+            <div class="elementor-image img">
+              <img
+                decoding="async"
+                src="./QWNF-006 - Queen Invitation_files/QW-016-0002-1.png"
+                alt="Wedding"
+              />
+            </div>
+
+            <div class="lws-mempelai">Fachrul &amp; Okta</div>
+
+            <div class="lws-dear" id="guestLabel" style="display: none">
+              Kepada YTH.
+            </div>
+
+            <div class="lws-name" id="guestName" style="display: none"></div>
+
+            <script>
+              const params = new URLSearchParams(window.location.search);
+
+              const guest = params.get("to");
+
+              // hanya tampil jika ada query param
+              if (guest && guest.trim() !== "") {
                 const guestName = decodeURIComponent(guest)
-                    .replace(/\+/g, " ")
-                    .toLowerCase()
-                    .replace(/\b\w/g, c => c.toUpperCase());
-        
+                  .replace(/\+/g, " ")
+                  .toLowerCase()
+                  .replace(/\b\w/g, (c) => c.toUpperCase());
+
                 document.getElementById("guestLabel").style.display = "block";
                 document.getElementById("guestName").style.display = "block";
-        
+
                 document.getElementById("guestName").innerText = guestName;
-        
-            }
-        
-        </script>
-		
-					<div class="lws-button-wrapper">
-						<button
-							class="elementor-button"
-							id="openInvitation"
-							type="button"
-						>
-							OPEN INVITATION
-						</button>
-					</div>
-		
-				</div>
-		
-			</div>
-		
-		</section>
-		
-		<script>
-      window.addEventListener("load", function(){
-      
-        const btn = document.getElementById("openInvitation");
-      
-        if(btn){
-      
-          btn.addEventListener("click", function(){
-      
-            // tutup modal
-             const modal = document.getElementById("welcomeModal");
-  
-              if(modal){
-  
-                  // animasi smooth ke atas
-                  modal.style.transition = "all 1.5s ease";
-                  modal.style.transform = "translateY(-100%)";
-                  modal.style.opacity = "0";
-  
-                  // hapus setelah animasi selesai
-                  setTimeout(() => {
-                      modal.remove();
-                  }, 800);
-  
               }
-  
-      
-          });
-      
-        }
-      
-      });
+            </script>
+
+            <div class="lws-button-wrapper">
+              <button
+                class="elementor-button"
+                id="openInvitation"
+                type="button"
+              >
+                OPEN INVITATION
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        window.addEventListener("load", function () {
+          const btn = document.getElementById("openInvitation");
+
+          if (btn) {
+            btn.addEventListener("click", function () {
+              // tutup modal
+              const modal = document.getElementById("welcomeModal");
+
+              if (modal) {
+                // animasi smooth ke atas
+                modal.style.transition = "all 1.5s ease";
+                modal.style.transform = "translateY(-100%)";
+                modal.style.opacity = "0";
+
+                // hapus setelah animasi selesai
+                setTimeout(() => {
+                  modal.remove();
+                }, 800);
+              }
+            });
+          }
+        });
       </script>
     </div>
     <style type="text/css" media="all">
